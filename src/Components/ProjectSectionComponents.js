@@ -116,7 +116,7 @@ export default function Projects() {
 
       <div className="homebtn">
         <a href="#top">
-          <img src={homebutton} alt="home button" />
+          <img className="homebutton" src={homebutton} alt="home button" />
         </a>
       </div>
     </>

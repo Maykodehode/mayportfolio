@@ -94,21 +94,20 @@ a:focus {
   color: #ff006b;
 }
 
-.Logos {
-  width: 12em;
+.selfie {
+  width: 90%;
+  min-width: 10em;
+}
+
+.emphasize {
   transition: all 1s ease;
   transform: scale(1);
 }
 
-.logos:hover,
-.logos:focus {
+.emphasize:hover,
+.emphasize:focus {
   cursor: pointer;
-  transform: scale(1.6);
-}
-
-.selfie {
-  width: 90%;
-  min-width: 10em;
+  transform: scale(1.5);
 }
 
 /* ======================================================================================================== */
@@ -200,9 +199,13 @@ a:focus {
 /* ======================================================================================================== */
 /* ===== HOME BUTTON ====================================================================================== */
 /* ======================================================================================================== */
+.homebutton {
+  width: 3em;
+}
+
 .homebtn {
   margin: 0 auto;
-  width: 4.5em;
+  width: 3em;
   transition: all 0.5s ease;
   transform: scale(1);
 }
@@ -249,6 +252,7 @@ a:focus {
 }
 
 .card {
+  border-top: 0.2em solid #ff006b;
   width: 20em;
   height: 25em;
   border-radius: 0.5em;
@@ -294,20 +298,23 @@ a:focus {
   background-color: #a50045;
   border-radius: 0.5em;
   margin: -1.5em 0.5em 0 auto;
-  border: 0.05em solid #4a001f;
   cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  outline: 0.1em solid #fff;
 }
 
 .github-button {
   width: 2em;
   height: 2em;
   margin: auto;
-  margin-left: 0.1em;
 }
 
 .githubbuttontext {
   margin: auto;
-  margin-left: -0.3em;
+  margin-left: 0.1em;
   color: #fff;
   font-weight: 500;
   font-size: 1em;
@@ -317,6 +324,7 @@ a:focus {
 /* ===== FOOTER =========================================================================================== */
 /* ======================================================================================================== */
 .Footer {
+  margin-top: 3em;
   display: flex;
   gap: 8%;
   background-color: #7d0a3b;

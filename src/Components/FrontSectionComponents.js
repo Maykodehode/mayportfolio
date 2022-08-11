@@ -28,6 +28,7 @@ export function NavbarTwo() {
     <div className="NavbarTwo">
       <a href="https://www.linkedin.com/in/may-helen-bjerga-45020697/">
         <img
+          className="emphasize"
           src={linkedin}
           width="50px"
           height="50px"
@@ -36,6 +37,7 @@ export function NavbarTwo() {
       </a>
       <a href="https://github.com/Maykodehode?tab=repositories">
         <img
+          className="emphasize"
           src={github}
           width="50px"
           height="50px"
@@ -62,7 +64,7 @@ export function FrontText() {
         Deve<span className="colortext">loper</span>
       </h1>
       <img
-        className="Logos"
+        className="emphasize"
         src={logos}
         alt="logo of figma, html, js, react, css"
       />
