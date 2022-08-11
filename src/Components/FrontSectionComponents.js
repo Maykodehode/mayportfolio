@@ -1,7 +1,7 @@
 import icon from "../Images/icon.png";
 import linkedin from "../Images/linkedin.png";
 import github from "../Images/github.png";
-import image from "../Images/portrett.png";
+import image from "../Images/polygons1.png";
 import logos from "../Images/logos.png";
 
 export function NavbarOne() {
@@ -19,6 +19,7 @@ export function NavbarOne() {
       <a href="https://1drv.ms/b/s!AvHm0FmgWKt1mcNRmYS73Z1Z6SwCbA?e=SrcmIF">
         <img className="pdficon" src={icon} alt="Download icon" />
       </a>
+      <div className="lineNav line"></div>
     </div>
   );
 }
@@ -49,7 +50,9 @@ export function NavbarTwo() {
 }
 
 export function Portrait() {
-  return <img className="selfie" src={image} height="600px" alt="portrait" />;
+  return (
+    <img className="frontpage-logo" src={image} height="700em" alt="portrait" />
+  );
 }
 
 export function FrontText() {

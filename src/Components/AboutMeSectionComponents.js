@@ -1,4 +1,4 @@
-import imageTwo from "../Images/picture.png";
+import imageTwo from "../Images/imageofme.png";
 import homebutton from "../Images/homebtn.png";
 
 export default function AboutMe() {
