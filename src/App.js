@@ -5,7 +5,7 @@ import Projects from "./Components/ProjectSectionComponents";
 import {
   NavbarOne,
   NavbarTwo,
-  Portrait,
+  Polygons,
   FrontText,
 } from "./Components/FrontSectionComponents";
 
@@ -16,7 +16,7 @@ function App() {
         <NavbarOne />
         <NavbarTwo />
         <FrontText />
-        <Portrait />
+        <Polygons />
       </div>
       <div>
         <AboutMe />

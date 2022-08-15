@@ -1,4 +1,4 @@
-import imageTwo from "../Images/imageofme.png";
+import portrett from "../Images/imageofme.png";
 import homebutton from "../Images/homebtn.png";
 
 export default function AboutMe() {
@@ -59,7 +59,7 @@ export default function AboutMe() {
         </div>
         <img
           className="picture"
-          src={imageTwo}
+          src={portrett}
           height="460px"
           alt="me in grand canyon"
         ></img>

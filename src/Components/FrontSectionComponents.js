@@ -1,8 +1,8 @@
-import icon from "../Images/icon.png";
-import linkedin from "../Images/linkedin.png";
-import github from "../Images/github.png";
-import image from "../Images/polygons1.png";
-import logos from "../Images/logos.png";
+import pdfIcon from "../Images/icon.png";
+import linkedInLogo from "../Images/linkedin.png";
+import githubLogo from "../Images/github.png";
+import polygonLogo from "../Images/polygons1.png";
+import codeLanguageLogos from "../Images/logos.png";
 
 export function NavbarOne() {
   return (
@@ -17,7 +17,7 @@ export function NavbarOne() {
         <h1>CV</h1>
       </a>
       <a href="https://1drv.ms/b/s!AvHm0FmgWKt1mcNRmYS73Z1Z6SwCbA?e=SrcmIF">
-        <img className="pdficon" src={icon} alt="Download icon" />
+        <img className="pdficon" src={pdfIcon} alt="Download icon" />
       </a>
       <div className="lineNav line"></div>
     </div>
@@ -30,7 +30,7 @@ export function NavbarTwo() {
       <a href="https://www.linkedin.com/in/may-helen-bjerga-45020697/">
         <img
           className="emphasize"
-          src={linkedin}
+          src={linkedInLogo}
           width="50px"
           height="50px"
           alt="LinkedIn logo, blue with white letters"
@@ -39,7 +39,7 @@ export function NavbarTwo() {
       <a href="https://github.com/Maykodehode?tab=repositories">
         <img
           className="emphasize"
-          src={github}
+          src={githubLogo}
           width="50px"
           height="50px"
           alt="Github logo, cat figure"
@@ -49,9 +49,14 @@ export function NavbarTwo() {
   );
 }
 
-export function Portrait() {
+export function Polygons() {
   return (
-    <img className="frontpage-logo" src={image} height="700em" alt="portrait" />
+    <img
+      className="frontpage-logo"
+      src={polygonLogo}
+      height="700em"
+      alt="Two triangles ontop of eachother in different angles, logo"
+    />
   );
 }
 
@@ -68,7 +73,7 @@ export function FrontText() {
       </h1>
       <img
         className="emphasize"
-        src={logos}
+        src={codeLanguageLogos}
         alt="logo of figma, html, js, react, css"
       />
     </div>

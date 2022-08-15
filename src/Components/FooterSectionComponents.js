@@ -1,4 +1,4 @@
-import logos from "../Images/logos.png";
+import CodeLanguageLogos from "../Images/logos.png";
 
 export default function Footer() {
   return (
@@ -7,14 +7,17 @@ export default function Footer() {
         <span className="boldtext">Phone: 984 39 413</span>
       </p>
       <p>
-        <span className="boldtext">Email: maykodehode@gmail.com</span>
+        <span className="boldtext">
+          Email:{" "}
+          <a href="mailto:maykodehode@gmail.com">maykodehode@gmail.com</a>
+        </span>
       </p>
       <p>
         <span className="boldtext">Made with:</span>
       </p>
       <img
         className="footer-logos"
-        src={logos}
+        src={CodeLanguageLogos}
         alt="logo react, html, css, javascript, figma"
       />
     </div>
