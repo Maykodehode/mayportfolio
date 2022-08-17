@@ -1,8 +1,10 @@
 import portrett from "../Images/imageofme.png";
 import homebutton from "../Images/homebtn.png";
 
+// FUNCTION THAT RETURNS HTML FOR THE ABOUT ME SECTION //
 export default function AboutMe() {
   return (
+    // LINES SURROUNDING THE TITLE - ABOUT ME //
     <div className="container">
       <section className="AboutMeTitle">
         <div className="lineOne line"></div>
@@ -16,6 +18,7 @@ export default function AboutMe() {
         <div className="lineEight line"></div>
       </section>
 
+      {/* UPPER TEXT */}
       <section className="intro-text">
         <p className="textOne">
           My name is May, I am 32 years old and I'm taking a very exciting{" "}
@@ -30,6 +33,8 @@ export default function AboutMe() {
           </span>
           .
         </p>
+
+        {/* TEXT - LEFT OF PORTRETT */}
         <div>
           <p className="textTwo">
             When my shaman isnt keeping the hunters alive in World of Warcraft,
@@ -57,6 +62,8 @@ export default function AboutMe() {
             .
           </p>
         </div>
+
+        {/* PORTRETT */}
         <img
           className="picture"
           src={portrett}
@@ -65,6 +72,7 @@ export default function AboutMe() {
         ></img>
       </section>
 
+      {/* HOME BUTTON */}
       <div className="homebtn">
         <a href="#top">
           <img className="homebutton" src={homebutton} alt="home button" />

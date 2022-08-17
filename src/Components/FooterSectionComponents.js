@@ -1,5 +1,6 @@
 import CodeLanguageLogos from "../Images/logos.png";
 
+// FUNCTION THAT RETURNS HTML FOR THE FOOTER - BOTTOM OF PAGE //
 export default function Footer() {
   return (
     <div className="Footer">

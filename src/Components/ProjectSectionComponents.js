@@ -7,6 +7,7 @@ import githubLogo from "../Images/github.png";
 import cssTransitionsImg from "../Images/css.transitions.jpg";
 
 // FUNCTION THAT RETURNS HTML FOR THE PROJECT SECTION //
+// LINES SURROUNDING THE TITLE - PROJECTS //
 export default function Projects() {
   return (
     <>
@@ -51,7 +52,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* PROJECT CARD: CALCUALTOR */}
+        {/* PROJECT CARD - CALCUALTOR */}
         <div className="calculator-card card">
           <img
             className="polygons"
@@ -68,7 +69,7 @@ export default function Projects() {
             Calculator made in React as a pre-summer project at Kodehode.
           </p>
 
-          {/* GITHUB LINK BUTTON */}
+          {/* GITHUB LINK - BUTTON */}
           <a href="https://github.com/Maykodehode/Calculator">
             <div className="button">
               <img
@@ -81,7 +82,7 @@ export default function Projects() {
           </a>
         </div>
 
-        {/* PROJECT CARD: CSS TRANSITIONS */}
+        {/* PROJECT CARD - CSS TRANSITIONS */}
         <div className="css-transitions-card card">
           <img
             className="polygons"
@@ -98,7 +99,7 @@ export default function Projects() {
             A task from Kodehode, which I had a lot of fun working with.
           </p>
 
-          {/* GITHUB LINK BUTTON */}
+          {/* GITHUB LINK - BUTTON */}
           <a href="https://github.com/Maykodehode/CSS-transitions">
             <div className="button">
               <img

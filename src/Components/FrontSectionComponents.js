@@ -4,8 +4,10 @@ import githubLogo from "../Images/github.png";
 import polygonLogo from "../Images/polygons1.png";
 import codeLanguageLogos from "../Images/logos.png";
 
+// FUNCTION THAT RETURNS HTML FOR THE FRONTPAGE SECTION //
 export function NavbarOne() {
   return (
+    // NAVBAR - TOP LEFT //
     <div className="NavbarOne">
       <h1>
         <a href="#projects">Projects</a>
@@ -13,6 +15,7 @@ export function NavbarOne() {
       <h1>
         <a href="#aboutme">About me</a>
       </h1>
+      {/* PDF ICON, WITH LINK FOR DOWNLOADING CV */}
       <a href="https://1drv.ms/b/s!AvHm0FmgWKt1mcNRmYS73Z1Z6SwCbA?e=SrcmIF">
         <h1>CV</h1>
       </a>
@@ -24,6 +27,7 @@ export function NavbarOne() {
   );
 }
 
+// FUNCTION RETURNING IMAGE - LOGOS WITH LINKS - TOP RIGHT - LINKEDIN AND GITHUB //
 export function NavbarTwo() {
   return (
     <div className="NavbarTwo">
@@ -49,6 +53,7 @@ export function NavbarTwo() {
   );
 }
 
+// FUNCTION RETURNING POLYGONS LOGO/IMAGE - MIDDLE RIGHT //
 export function Polygons() {
   return (
     <img
@@ -60,6 +65,7 @@ export function Polygons() {
   );
 }
 
+// FUNCTION RETURNING TITLE - NAME - PROFESSION - MIDDLE LEFT //
 export function FrontText() {
   return (
     <div className="title">
@@ -71,6 +77,8 @@ export function FrontText() {
       <h1>
         Deve<span className="colortext">loper</span>
       </h1>
+
+      {/* FUNCTION RETURNING IMAGE - LANGUAGE LOGOS - SCALES IN SIZE ON HOVER */}
       <img
         className="emphasize"
         src={codeLanguageLogos}
