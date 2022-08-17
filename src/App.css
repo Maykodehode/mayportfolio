@@ -70,7 +70,7 @@ a:focus {
 
 .pdficon {
   height: 23%;
-  margin-top: 2.5em;
+  margin-top: 2.2em;
   margin-left: -1.4em;
 }
 
@@ -216,7 +216,8 @@ a:focus {
 }
 
 .picture {
-  margin: 0.6em auto 0 2em;
+  margin: 1em auto 0 2em;
+  height: 24em;
 }
 
 /* ======================================================================================================== */
