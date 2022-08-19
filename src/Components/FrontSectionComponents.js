@@ -3,6 +3,7 @@ import linkedInLogo from "../Images/linkedin.png";
 import githubLogo from "../Images/github.png";
 import polygonLogo from "../Images/polygons1.png";
 import codeLanguageLogos from "../Images/logos.png";
+import cv from "../cvFile/CV.maybjerga.pdf";
 
 // FUNCTION THAT RETURNS HTML FOR THE FRONTPAGE SECTION //
 export function NavbarOne() {
@@ -16,10 +17,10 @@ export function NavbarOne() {
         <a href="#aboutme">About me</a>
       </h1>
       {/* PDF ICON, WITH LINK FOR DOWNLOADING CV */}
-      <a href="https://1drv.ms/b/s!AvHm0FmgWKt1mcNRmYS73Z1Z6SwCbA?e=SrcmIF">
+      <a href={cv} download>
         <h1>CV</h1>
       </a>
-      <a href="https://1drv.ms/b/s!AvHm0FmgWKt1mcNRmYS73Z1Z6SwCbA?e=SrcmIF">
+      <a href={cv} download>
         <img className="pdficon" src={pdfIcon} alt="Download icon" />
       </a>
       <div className="lineNav line"></div>
