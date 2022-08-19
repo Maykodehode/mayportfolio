@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/mayportfolio/static/css/main.874fe51c.css",
-    "main.js": "/mayportfolio/static/js/main.8759738f.js",
+    "main.css": "/mayportfolio/static/css/main.87f12705.css",
+    "main.js": "/mayportfolio/static/js/main.3df2fa6d.js",
     "static/media/imageofme.png": "/mayportfolio/static/media/imageofme.39e3917f4bf9f9e5a927.png",
+    "static/media/CV.maybjerga.pdf": "/mayportfolio/static/media/CV.maybjerga.a39fa20f20be2ca27787.pdf",
     "static/media/css.transitions.jpg": "/mayportfolio/static/media/css.transitions.3ae3614aeb86184d1de7.jpg",
     "static/media/calc.browser.jpg": "/mayportfolio/static/media/calc.browser.a0f275c831ba75677815.jpg",
     "static/media/codeImg.png": "/mayportfolio/static/media/codeImg.2090f09776cf252e44fc.png",
     "static/media/polygons1.png": "/mayportfolio/static/media/polygons1.2aa62b1d00f889381bdc.png",
     "static/media/logos.png": "/mayportfolio/static/media/logos.2a38f5471ebccf9202f3.png",
     "index.html": "/mayportfolio/index.html",
-    "main.874fe51c.css.map": "/mayportfolio/static/css/main.874fe51c.css.map",
-    "main.8759738f.js.map": "/mayportfolio/static/js/main.8759738f.js.map"
+    "main.87f12705.css.map": "/mayportfolio/static/css/main.87f12705.css.map",
+    "main.3df2fa6d.js.map": "/mayportfolio/static/js/main.3df2fa6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.874fe51c.css",
-    "static/js/main.8759738f.js"
+    "static/css/main.87f12705.css",
+    "static/js/main.3df2fa6d.js"
   ]
 }
